@@ -26,7 +26,7 @@ public class PddServiceImpl implements PddService {
     public void commitGoods(TaobaoGoodsDetail taobaoGoodsDetail) {
 //        String clientId = "your clientId";
 //        String clientSecret = "your clientSecret";
-        String accessToken = "your accessToken";
+        String accessToken = "0d3a6c46b09249e8ae66fa8550c4eafbcf52d32f";
         PopClient client = new PopHttpClient(clientId, clientSecret);
         PddGoodsSubmitGoodsCommitRequest request = new PddGoodsSubmitGoodsCommitRequest();
         request.setBuyLimit(0L);
